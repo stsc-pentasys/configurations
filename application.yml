@@ -1,0 +1,28 @@
+service:
+  description: Generic Sevrice Descrition (overloaded by app configurations)
+
+---
+spring:
+  profiles: development
+server:
+  port: 8080
+management:
+  port: 8081
+logging:
+  level:
+    org:
+      springframework:
+        boot: INFO
+
+---
+spring:
+  profiles: production
+server:
+  port: 80
+management:
+  port: 10023
+logging:
+  level:
+    org:
+      springframework:
+        boot: ERROR

@@ -1,0 +1,22 @@
+service:
+  description: Spring Weblog
+
+---
+spring:
+  profiles: development
+  datasource:
+    platform: h2
+  jpa:
+    generate-ddl: false
+    hibernate:
+      ddl-auto: none
+
+---
+spring:
+  profiles: production
+  datasource:
+    platform: oracle
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
