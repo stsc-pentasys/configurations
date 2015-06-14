@@ -6,9 +6,9 @@ logging:
 spring:
   profiles: development
 logging:
-  path: log/development   
+  path: ./logs/development   
 ---
 spring:
   profiles: production
 logging:
-  path: log/production
+  path: ./logs/production
