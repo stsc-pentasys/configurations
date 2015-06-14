@@ -15,8 +15,8 @@ spring:
 spring:
   profiles: production
   datasource:
-    platform: oracle
+    platform: h2
   jpa:
-    generate-ddl: true
+    generate-ddl: false
     hibernate:
-      ddl-auto: update
+      ddl-auto: none

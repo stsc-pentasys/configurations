@@ -18,9 +18,9 @@ logging:
 spring:
   profiles: production
 server:
-  port: 80
+  port: 8000
 management:
-  port: 10023
+  port: 8001
 logging:
   level:
     org:
