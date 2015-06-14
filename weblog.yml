@@ -4,8 +4,10 @@ service:
 ---
 spring:
   profiles: development
- 
+logging:
+  path: logs/development
 ---
 spring:
   profiles: production
-
+logging:
+  path: logs/production
