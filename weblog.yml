@@ -1,7 +1,5 @@
 service:
   description: Spring Weblog
-logging:
-  file: system.log
 
 ---
 spring:
