@@ -1,5 +1,12 @@
 service:
   description: Generic Sevrice Descrition (overloaded by app configurations)
+spring:
+  datasource:
+    platform: h2
+  jpa:
+    generate-ddl: false
+    hibernate:
+      ddl-auto: none
 
 ---
 spring:

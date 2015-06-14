@@ -1,22 +1,14 @@
 service:
   description: Spring Weblog
-
+logging:
+  file: system.log
 ---
 spring:
   profiles: development
-  datasource:
-    platform: h2
-  jpa:
-    generate-ddl: false
-    hibernate:
-      ddl-auto: none
-
+logging:
+  path: log/development   
 ---
 spring:
   profiles: production
-  datasource:
-    platform: h2
-  jpa:
-    generate-ddl: false
-    hibernate:
-      ddl-auto: none
+logging:
+  path: log/production
