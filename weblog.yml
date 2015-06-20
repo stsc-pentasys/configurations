@@ -9,7 +9,7 @@ endpoints:
     enabled: true  
 jolokia:
   config:
-  	debug: true
+    debug: true
 
 ---
 spring:
@@ -19,4 +19,4 @@ endpoints:
     enabled: false  
 jolokia:
   config:
-  	debug: false
+    debug: false
