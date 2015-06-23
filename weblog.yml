@@ -15,7 +15,7 @@ jolokia:
 spring:
   profiles: production
   datasource:
-    url: jdbc:h2:data/weblog
+    url: jdbc:h2:./data/weblog
     username: sa
     password: sa
     driver-class-name: org.h2.Driver
