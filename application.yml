@@ -1,5 +1,5 @@
 service:
-  description: Generic Sevrice Descrition (overloaded by app configurations)
+  description: Generic Service Description (overloaded by app configurations)
 spring:
   datasource:
     platform: h2
